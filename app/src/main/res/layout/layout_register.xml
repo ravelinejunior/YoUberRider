@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:baselineAligned="false"
+
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vamos_come_ar_criando_sua_conta_no_app"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:textSize="22sp"
+        android:fontFamily="@font/uber_move"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:baselineAligned="false"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="4dp"
+            app:hintTextColor="@color/grey"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/first_name_Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/primeiro_nome"
+                android:textColorHint="#2E2C2C"
+                android:maxLines="1"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="4dp"
+            app:hintTextColor="@color/grey"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/last_name_Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ultimo_nome"
+                android:textColorHint="#2E2C2C"
+                android:maxLines="1"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextColor="@color/grey"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="8dp"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone_number_Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/digite_seu_numero"
+                android:textColorHint="#2E2C2C"
+                android:inputType="phone"
+                android:maxLines="1"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button_register_Register"
+            style="@style/FirebaseUI.Button.AccountChooser.GitHubButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_margin="16dp"
+            android:text="@string/continue_data"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

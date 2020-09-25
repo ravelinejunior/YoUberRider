@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">YoUberRider</string>
+    <string name="sign_in_with_phone">ENTRAR COM CELULAR</string>
+    <string name="sign_in_with_google">ENTRAR COM CONTA GOOGLE</string>
+    <string name="vamos_come_ar_criando_sua_conta_no_app">Vamos começar criando sua conta no app</string>
+    <string name="primeiro_nome">Primeiro Nome</string>
+    <string name="ultimo_nome">Ultimo Nome</string>
+    <string name="digite_seu_numero">Digite seu número</string>
+    <string name="continue_data"><![CDATA[Continue -->]]></string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="sair">Sair</string>
+</resources>
